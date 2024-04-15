@@ -1,0 +1,72 @@
+{
+  "-NvU52ZajUC7MmE_emgU": {
+    "firebaseKey": "-NvU52ZajUC7MmE_emgU",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/yoshi/main.png",
+    "name": "Yoshi",
+    "role": "Offensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52Zba8KWewVeHf7d": {
+    "firebaseKey": "-NvU52Zba8KWewVeHf7d",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/donkey_kong/main.png",
+    "name": "Donkey Kong",
+    "role": "Defensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52ZcJkPF7UFkQo0_": {
+    "firebaseKey": "-NvU52ZcJkPF7UFkQo0_",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/captain_falcon/main.png",
+    "name": "Captain Falcon",
+    "role": "Flexible",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52Zdkl0wmgCcq_jp": {
+    "firebaseKey": "-NvU52Zdkl0wmgCcq_jp",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/pikachu/main.png",
+    "name": "Pikachu",
+    "role": "Defensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52Ze3ck2zoSx4eBq": {
+    "firebaseKey": "-NvU52Ze3ck2zoSx4eBq",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/kirby/main.png",
+    "name": "Kirby",
+    "role": "Defensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52ZfGDAkc59hjDhe": {
+    "firebaseKey": "-NvU52ZfGDAkc59hjDhe",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/mario/main.png",
+    "name": "Mario",
+    "role": "Offensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52ZglZcytz6GXHf7": {
+    "firebaseKey": "-NvU52ZglZcytz6GXHf7",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/samus/main.png",
+    "name": "Samus",
+    "role": "Offensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52ZhgwEQXvEmpVLZ": {
+    "firebaseKey": "-NvU52ZhgwEQXvEmpVLZ",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/link/main.png",
+    "name": "Link",
+    "role": "Defensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52ZhgwEQXvEmpVL_": {
+    "firebaseKey": "-NvU52ZhgwEQXvEmpVL_",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/ness/main.png",
+    "name": "Ness",
+    "role": "Offensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  },
+  "-NvU52ZiFjGs_8kJPQRX": {
+    "firebaseKey": "-NvU52ZiFjGs_8kJPQRX",
+    "image": "https://www.smashbros.com/assets_v2/img/fighter/luigi/main.png",
+    "name": "Luigi",
+    "role": "Defensive",
+    "uid": "wKBqyFeaK9NX1FeHQplO3A975n92"
+  }
+}
