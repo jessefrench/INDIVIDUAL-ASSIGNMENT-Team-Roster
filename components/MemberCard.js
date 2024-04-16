@@ -18,9 +18,9 @@ export default function MemberCard({ memberObj, onUpdate }) {
       <Card.Body>
         <Card.Title>{memberObj.name}</Card.Title>
         <p className="card-text bold">{memberObj.role}</p>
-        <Link href={`/member/${memberObj.firebaseKey}`} passHref>
+        {/* <Link href={`/member/${memberObj.firebaseKey}`} passHref>
           <Button variant="primary" className="m-2">View</Button>
-        </Link>
+        </Link> */}
         <Link href={`/member/edit/${memberObj.firebaseKey}`} passHref>
           <Button variant="info">Edit</Button>
         </Link>
