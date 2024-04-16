@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { signIn } from '../utils/auth';
 
-function Signin() {
+export default function Signin() {
   return (
     <div
       className="text-center d-flex flex-column justify-content-center align-content-center"
@@ -13,13 +13,11 @@ function Signin() {
         margin: '0 auto',
       }}
     >
-      <h1>Hi there!</h1>
-      <p>Click the button below to login!</p>
+      <h1 style={{ color: 'white' }}>Hi there!</h1>
+      <p style={{ color: 'white' }}>Click the button below to login!</p>
       <Button type="button" size="lg" className="copy-btn" onClick={signIn}>
         Sign In
       </Button>
     </div>
   );
 }
-
-export default Signin;
