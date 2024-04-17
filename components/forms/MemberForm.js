@@ -47,10 +47,10 @@ export default function MemberForm({ obj }) {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <h2 className="text-white mt-5">{obj.firebaseKey ? 'Update' : 'Create'} member</h2>
+      <h2 className="text-white mt-5">{obj.firebaseKey ? 'Update' : 'Add'} fighter</h2>
 
       {/* NAME INPUT  */}
-      <FloatingLabel controlId="floatingInput1" label="Member name" className="mb-3">
+      <FloatingLabel controlId="floatingInput1" label="Name" className="mb-3">
         <Form.Control
           type="text"
           placeholder="Enter a name"
@@ -61,20 +61,44 @@ export default function MemberForm({ obj }) {
         />
       </FloatingLabel>
 
-      {/* ROLE INPUT  */}
-      <FloatingLabel controlId="floatingInput3" label="Member role" className="mb-3">
-        <Form.Control
-          type="text"
-          placeholder="Enter role"
+      {/* ROLE SELECT  */}
+      <FloatingLabel controlId="floatingSelect" label="Role">
+        <Form.Select
+          aria-label="Role"
           name="role"
-          value={formInput.role}
           onChange={handleChange}
+          className="mb-3"
           required
-        />
+        >
+          <option value="">Select an archetype</option>
+          <option value="All-rounder">All-rounder</option>
+          <option value="Rushdown">Rushdown</option>
+          <option value="Pressurer">Pressurer</option>
+          <option value="Hit & Run">Hit & Run</option>
+          <option value="Mix-up">Mix-up</option>
+          <option value="Zone-breaker">Zone-breaker</option>
+          <option value="Dominating">Dominating</option>
+          <option value="Powerhouse">Powerhouse</option>
+          <option value="Footsies">Footsies</option>
+          <option value="Glass Cannon">Glass Cannon</option>
+          <option value="Tag Team">Tag Team</option>
+          <option value="Zoner">Zoner</option>
+          <option value="Bait & Punish">Bait & Punish</option>
+          <option value="Trapper">Trapper</option>
+          <option value="Turtle">Turtle</option>
+          <option value="Keep Away">Keep Away</option>
+          <option value="Stage Control">Stage Control</option>
+          <option value="Half-grappler">Half-grappler</option>
+          <option value="Half-healer">Half-healer</option>
+          <option value="Dynamic">Dynamic</option>
+          <option value="Aura">Aura</option>
+          <option value="First Strike">First Strike</option>
+          <option value="Precision">Precision</option>
+        </Form.Select>
       </FloatingLabel>
 
       {/* IMAGE INPUT  */}
-      <FloatingLabel controlId="floatingInput2" label="Member image" className="mb-3">
+      <FloatingLabel controlId="floatingInput2" label="Image URL" className="mb-3">
         <Form.Control
           type="url"
           placeholder="Enter an image url"
@@ -86,7 +110,7 @@ export default function MemberForm({ obj }) {
       </FloatingLabel>
 
       {/* SUBMIT BUTTON  */}
-      <Button type="submit">{obj.firebaseKey ? 'Update' : 'Create'} member</Button>
+      <Button type="submit">{obj.firebaseKey ? 'Update' : 'Add'} fighter</Button>
     </Form>
   );
 }
