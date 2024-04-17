@@ -16,11 +16,11 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
+            <Link passHref href="/member/new">
+              <Nav.Link>New Fighter</Nav.Link>
+            </Link>
             <Link passHref href="/teams">
               <Nav.Link>Teams</Nav.Link>
-            </Link>
-            <Link passHref href="/member/new">
-              <Nav.Link>New Member</Nav.Link>
             </Link>
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>
