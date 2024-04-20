@@ -5,6 +5,7 @@ import {
   Navbar, Container, Nav, Button,
 } from 'react-bootstrap';
 import { signOut } from '../utils/auth';
+import SearchBar from './SearchBar';
 
 export default function NavBar() {
   return (
@@ -22,8 +23,9 @@ export default function NavBar() {
             <Link passHref href="/teams">
               <Nav.Link>Teams</Nav.Link>
             </Link>
-            <Button variant="danger" onClick={signOut}>Sign Out</Button>
           </Nav>
+          <SearchBar />
+          <Button id="sign-out-btn" variant="danger" onClick={signOut}>Sign Out</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

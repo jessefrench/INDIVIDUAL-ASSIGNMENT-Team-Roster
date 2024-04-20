@@ -20,3 +20,7 @@ a {
 body {
   background-color: #ff3636;
 }
+
+#sign-out-btn {
+  margin-left: 100px;
+}
